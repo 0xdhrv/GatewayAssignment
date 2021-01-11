@@ -1,0 +1,54 @@
+:root {
+    font-family: 'Inter', sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+    :root {
+        font-family: 'Inter';
+    }
+}
+
+body {
+    font-family: 'Inter';
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.banner {
+    background: url('https://source.unsplash.com/Pw8SHbCn4iM');
+}
+
+@-moz-document url-prefix() {
+    html {
+        scrollbar-width: none;
+    }
+}
+
+:-webkit-scrollbar {
+    width: 0px;
+    /* Remove scrollbar space */
+    background: transparent;
+    /* Optional: just make scrollbar invisible */
+}
+
+::selection {
+    text-shadow: none;
+    background: rgba(0, 0, 0, 0.5);
+    color: #111;
+}
+
+input:focus,
+textarea:focus,
+select:focus,
+button:focus {
+    outline: none;
+}
+
+a:focus {
+    outline: none;
+}
+
+a {
+    outline: none !important;
+}
