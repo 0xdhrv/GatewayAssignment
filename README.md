@@ -14,3 +14,17 @@ The projects are included within this parent repository and all the additional n
 ## Source Control Final Assignment | 22, Dec, 2020
 
 ![Simple App](Media/SourceControl2.png)
+
+## Product Management Assignment | 12, Jan, 2021
+
+### Login Page
+
+![Simple App](Media/ProductManagement1.png)
+
+### Register Page
+
+![Simple App](Media/ProductManagement2.png)
+
+### Product Page
+
+![Simple App](Media/ProductManagement3.png)

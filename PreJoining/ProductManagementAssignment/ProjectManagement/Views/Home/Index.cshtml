@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+@using Microsoft.AspNet.Identity
+@*
+*@
+
+@if (Request.IsAuthenticated)
+{
+<div class="container">
+    <div class="form-group">
+        <h2>Welcome @Html.Raw(User.Identity.GetUserName().Split('@')[0])</h2>
+    </div>
+    </div>
+    }
