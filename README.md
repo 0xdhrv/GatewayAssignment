@@ -32,3 +32,5 @@ The projects are included within this parent repository and all the additional n
 ## WebAPI Final Assignment | 14, Jan, 2021
 
 ## Microservices Assignment 1 | 04, Feb, 2021
+
+## Microservices Assignment 2 | 06, Feb, 2021
