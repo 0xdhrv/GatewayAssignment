@@ -1,0 +1,23 @@
+{
+  "ReRoutes": [
+    {
+      "DownStreamPathTemplate": "/api/user",
+      "DownStreamScheme": "http",
+      "DownStreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "62180"
+        }
+      ],
+      "UpStreamPathTemplate": "/user",
+      "UpStreamHttpMethod": [ "GET" ],
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "1s",
+        "PeriodTimespan": 1,
+        "Limit": 1
+      }
+    }
+  ]
+}

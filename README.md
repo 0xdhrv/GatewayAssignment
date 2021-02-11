@@ -34,3 +34,7 @@ The projects are included within this parent repository and all the additional n
 ## Microservices Assignment 1 | 04, Feb, 2021
 
 ## Microservices Assignment 2 | 06, Feb, 2021
+
+## Microservices Assignment 3 | 11, Feb, 2021
+
+![Simple App](Media/Microservices3.png)
