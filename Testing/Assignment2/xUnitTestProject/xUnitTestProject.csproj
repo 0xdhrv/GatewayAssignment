@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3B7475A5-1577-4E2B-B168-E65E5DDFAE5D}</ProjectGuid>
+    <ProjectGuid>{B6C63750-3611-4E50-B7D5-B9A8C588AEBF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>xUnitTestProject</RootNamespace>
@@ -40,28 +40,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNet.Mvc">
-      <Version>5.2.7</Version>
-    </PackageReference>
     <PackageReference Include="Microsoft.AspNet.WebApi.Core">
       <Version>5.2.7</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.2.0" />
-    <PackageReference Include="Moq">
-      <Version>4.16.1</Version>
-    </PackageReference>
     <PackageReference Include="xunit" Version="2.4.1" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.1" />
     <PackageReference Include="coverlet.collector" Version="1.0.1" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PassengerControllerTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StringControllerTest.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Passenger Management App\PassengerManagement.csproj">
-      <Project>{833d884b-ff8a-4b6b-8036-43f31614eb0e}</Project>
-      <Name>PassengerManagement</Name>
+    <ProjectReference Include="..\String Operations App\String Operations App.csproj">
+      <Project>{d76ea07a-4f1e-4463-b9c4-8186bcc6ff12}</Project>
+      <Name>String Operations App</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
